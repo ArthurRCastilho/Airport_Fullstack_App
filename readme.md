@@ -21,18 +21,34 @@ Abra o mongoDB Compass e se conecte Localhost
 
 ### 2 - Iniciar back-end
 Abra a pasta que contenha o arquivo back-end <br>
-```cd Back-end``` <br>
+
+```
+cd Back-end
+``` 
+
+<br>
 e com node.js instalado inicie o servidor Back-end com o seguinte comando <br>
-```npm run dev``` <br>
+
+```
+npm run dev
+``` 
+<br>
 
 Deve aparecer uma mensagem que se conectou ao banco de dados
 
 ### 3 - Inicie o front-end e teste
 Em uma nova janela do VSCode, com flutter instalado abra a pasta Front-end:<br>
-```cd Back-end``` <br>
+```
+cd Back-end
+``` 
+<br>
 Inicie um simulador de sua preferência (IOS ou Android);
 Rode o programa usando o seguinte código
-```flutter run```
 
+```
+flutter run
+```
+
+<br>
 Agora basta criar, lembrando que o banco de dados por estar em seu PC ele não tem nada, é necessário criar contas de funcionário e Admin para testar
 
